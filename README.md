@@ -46,30 +46,9 @@ Müşterilerle sürekli ve profesyonel iletişim sağlamak için otomatik bir bi
 *   `crm_console.py`: Pydantic mantığıyla çalışan komut satırı (Console) sürümü.
 *   `email_service.py`: E-posta taslaklarını oluşturup göndermekten sorumlu modül.
 
-## ⚙️ Kurulum ve Çalıştırma
 
-1. Gerekli kütüphaneleri terminal üzerinden yükleyin:
-```bash
-pip install PyQt5 customtkinter SQLAlchemy pydantic email-validator pandas openpyxl Pillow
-```
 
-2. لتشغيل الواجهة الرئيسية الاحترافية:
-```bash
-python gui.py
-```
 
-3. لتشغيل لوحة التحكم العصرية (Dashboard):
-```bash
-python cardwell_crm.py
-```
 
-## 🛠️ تفاصيل تقنية هامة
-
-### نظام الألوان (Design Tokens)
-تم استخدام نظام ألوان مخصص يدعم الوضع الليلي (Dark Mode) العميق:
-- **Cyan:** للأزرار والروابط النشطة.
-- **Emerald:** للعمليات الناجحة (تم المبيع / تم الحل).
-- **Rose:** للأخطاء والعمليات الملغاة.
-
-### معالجة الأخطاء
-تم تزويد النظام بآلية `session.rollback()` في ملفات قاعدة البيانات لمنع تعليق النظام عند حدوث أخطاء في الإدخال، مع رسائل تنبيهية للمستخدم توضح سبب الخطأ (مثل خطأ في صيغة الإيميل أو السعر).
+-----------------------------------------------------------------------------
+* öğrenim amajlı geliştirilmiştir *
